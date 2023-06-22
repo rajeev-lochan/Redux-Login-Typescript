@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 500px;
+  padding: 20px;
+  background-color: #a1e1fa;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.error, .error-position{
+  color: red;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-container input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+Stack{
+  /* display: flex;
+  justify-content: space-around; */
+  margin-left: 50%;
+}
+
+h2{
+  color: rgb(25, 0, 255);
+  margin-left: 50%;
+}
+
+h3{
+  color: rgb(43, 255, 0);
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.dashboard-body{
+  /* background: rgb(2,0,36); */
+  display: flex;
+  background-image: linear-gradient(180deg, rgb(3, 2, 34) 0%, rgba(31,111,200,1) 35%, rgba(0,212,255,1) 100%);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.dashboard-form{
+  display: inline-block;
+  /* background-color: rgb(175, 245, 233); */
+  /* background: linear-gradient(0deg, rgb(177, 115, 33) 0%, rgba(227,195,50,1) 100%); */
+  background: linear-gradient(135deg, orange 60%, cyan);
+  /* padding: 10px 10px; */
+  margin: 0;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.dashboard-buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MuiRadio-colorPrimary.Mui-checked {
+  color: black;
+}
+
+/* .table-message p{
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+} */

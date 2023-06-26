@@ -28,7 +28,7 @@ const Login = () => {
         setUsername(email);
     };
 
-    //password validation on change
+    //password validation
     const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const password = e.target.value;
         const trimmedPassword = password.trim();

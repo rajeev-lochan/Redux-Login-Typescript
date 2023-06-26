@@ -77,7 +77,7 @@ const Login = () => {
 
     };
 
-    // toggle of eye icon
+    // toggle the eye icon
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
     };
